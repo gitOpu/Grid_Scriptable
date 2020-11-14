@@ -38,4 +38,31 @@ public static class GridAsst
             return 4;
     }
 
+    public static bool IsEdgeGrid(int i, int j)
+    {
+        // Upper rows
+        if (i == 0 && j == rows - 1)
+            return true;
+        if (i == columns - 1 && j == rows - 1)
+            return true;
+        if (i != 0 && i != columns - 1 && j == rows - 1)
+            return true;
+        // Lower rows
+        if (i == 0 && j == 0)
+            return true;
+        if (i == columns - 1 && j == 0)
+            return true;
+        if (i != 0 && i != columns - 1 && j == 0)
+            return true;
+        // Left rows
+        if (i == 0 && j != 0 && j != rows - 1)
+            return true;
+        // Right rows
+        if (i == columns - 1 && j != 0 && j != rows - 1)
+            return true;
+        // Middle cell
+        else
+            return false;
+    }
+
 }

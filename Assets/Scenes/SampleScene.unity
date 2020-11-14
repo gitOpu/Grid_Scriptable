@@ -157,7 +157,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -315,11 +315,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   containerObject: {fileID: 718445786}
-  model:
-  - {fileID: 11400000, guid: 8e2407834db10d84c9e5040754390dd4, type: 2}
-  - {fileID: 11400000, guid: 9485a2b602b497e46bfd972c29cd1a44, type: 2}
+  gridModel:
   - {fileID: 11400000, guid: fda21368f05704e46ae5efe800655c1f, type: 2}
+  - {fileID: 11400000, guid: 9485a2b602b497e46bfd972c29cd1a44, type: 2}
+  - {fileID: 11400000, guid: 8e2407834db10d84c9e5040754390dd4, type: 2}
+  gridDecorationModel:
+  - {fileID: 11400000, guid: 2658aec945fd2fe4e9b3ea728b05892c, type: 2}
+  - {fileID: 11400000, guid: 9f89a8f409bd6f141b1b8a2d3c60f319, type: 2}
+  - {fileID: 11400000, guid: cac09d7e3f4245347ac0633d9fcdbb14, type: 2}
+  - {fileID: 11400000, guid: 3a3e5ddd0140efa449068e3755b1828e, type: 2}
   currentGrid: 0
+  fileRate: 0
 --- !u!4 &2002571642
 Transform:
   m_ObjectHideFlags: 0
