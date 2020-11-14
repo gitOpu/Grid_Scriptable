@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470d313530f6eb04198e61442752ead2, type: 3}
+  m_Name: forest
+  m_EditorClassIdentifier: 
+  gridModelSprite:
+  - {fileID: -8471393736113874461, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: 8533092611668943973, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: 5143637772713123625, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: 8702655680297036346, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: -4454678824492231772, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: 3338636476592348071, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: -7348107223456061862, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: 8841132580958459619, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
+  - {fileID: 63241397972261392, guid: 6d9ddeab524703444b96e92427ed45b2, type: 3}
