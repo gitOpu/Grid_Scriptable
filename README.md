@@ -168,7 +168,7 @@ public class GridManager : MonoBehaviour
 
 
 # Project 3
-![Cover Photo](doc/2.PNG)
+![Cover Photo](doc/3.PNG)
 
 ** GridManager.cs // Main Controller
 ```C#
